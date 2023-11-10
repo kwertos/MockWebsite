@@ -1,0 +1,82 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden; /* makes it so that the page doesnt scroll anymore */
+}
+
+.title {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    /* padding: 20px 30px 40px 50px; (puts padding on left, top, right bottom */
+    padding: 20px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title:hover {
+    font-size: 200px;
+    color: rgb(28, 0, 128);
+
+    /* "all" targets all the elemnts above */
+    transition: color 500ms, font-size 1s;
+}
+
+/* .green-box {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+
+} */
+
+/* background */
+.soil {
+    width: 100vw;
+    height: 100vw;
+}
+
+.rock {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    width: 300px;
+    height: auto;
+    transform: rotate(90deg);
+
+    cursor: pointer;
+}
+
+.dialog {
+    width: 100px;
+    height: 100px;
+    background: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px;
+
+    display: none;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.car {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    translate: (-50%, -50%);
+    height: 400px;
+    width: auto;
+}
